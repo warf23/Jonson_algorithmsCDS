@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "Jonson_application/app.py",
+        "src": "app.py",
         "use": "@vercel/python"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "Jonson_application/app.py"
+        "dest": "app.py"
       }
     ]
   }
